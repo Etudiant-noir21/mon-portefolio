@@ -231,6 +231,12 @@ background-position: bottom center;
     color: var(--text-gray);font-size: 15px;font-weight: 400;
     padding: 10px 20px;
 }
+.contact-wrapper  img{
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    border-radius: 20px;
+}
 .contact-wrapper .form-control:hover,
 .contact-wrapper textarea:hover,
 .contact-wrapper .form-control:focus,
