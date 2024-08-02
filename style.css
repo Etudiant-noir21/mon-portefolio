@@ -158,12 +158,8 @@ textarea:hover,button{
     width: 100%;
     height: auto;
     min-height: 650px;
-    background-image: url(images/img-3.jpeg);
-    /* background: linear-gradient(rgba(0, 0, 0, 0),black,); */
-    background-repeat: no-repeat;
-    background-position:  center center;
-    background-size: cover;
-    background-attachment: fixed;
+    background:linear-gradient(rgba(0, 0, 0, 0.721), rgba(0, 0, 0, 0.525)), no-repeat center / cover url(images/img-3.jpeg);
+    background-attachment: fixed; 
     padding: 200px 0 100px 0;
 }
 /* 4 About */
